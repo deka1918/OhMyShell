@@ -1,0 +1,97 @@
+{
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "background": "transparent",
+          "foreground": "#fb7e14",
+          "properties": {
+            "macos": "\uf179 ",
+            "ubuntu": "\uf31b ",
+            "windows": "\ue62a "
+          },
+          "style": "plain",
+          "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
+          "type": "os"
+        },
+        {
+          "foreground": "#fb7e14",
+          "style": "plain",
+          "template": " {{ .Name }} ",
+          "type": "shell"
+        },
+        {
+          "background": "#292929",
+          "foreground": "#fb7e14",
+          "style": "plain",
+          "template": " \ue266 MEM: {{ round .PhysicalPercentUsed .Precision }}% | {{ (div .PhysicalTotalMemory 1000000000.0) }}GB ",
+          "type": "sysinfo"
+        },
+        {
+          "background": "#fb7e14",
+          "foreground": "#ffffff",
+          "trailing_diamond": "",
+          "properties": {
+            "time_format": "15:04 | Monday"
+          },
+          "style": "diamond",
+          "template": " \uf017 {{ .CurrentDate | date .Format }} \uf073 ",
+          "type": "time"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "style": "plain",
+          "template": "<#fb7e14>\u256d\u2500",
+          "type": "text"
+        },
+        {
+          "style": "plain",
+          "template": " \uf292 ",
+          "type": "root"
+        },
+        {
+          "properties": {
+            "folder_icon": "\uf07b ",
+            "folder_separator_icon": " \u00bb ",
+            "home_icon": "<#fb7e14>\ueb06 "
+          },
+          "style": "plain",
+          "template": " {{ .Path }} ",
+          "type": "path"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "background": "transparent",
+          "foreground": "#fb7e14",
+          "foreground_templates": [
+            "{{if gt .Code 0}}#ff3030{{end}}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": "<#fb7e14>\u2570\u2500",
+          "type": "status"
+        }
+      ]
+    }
+  ],
+  "console_title_template": "{{if .Root}}[root] {{end}}{{.Shell}} in <{{.Folder}}>",
+  "final_space": true,
+  "version": 2
+}

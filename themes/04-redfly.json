@@ -1,0 +1,82 @@
+{
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#f32c1e",
+          "foreground_templates": [
+            "{{ if .Root }}lightRed{{ end }}"
+          ],
+          "properties": {
+            "display_host": true
+          },
+          "style": "plain",
+          "template": "<#f32c1e>\u250c\u2500<#f32c1e>\u2500\u2500",
+          "type": "session"
+        },
+        {
+          "foreground": "lightWhite",
+          "properties": {
+            "folder_icon": " \uf115 ",
+            "folder_separator_icon": " <#FFFFFF>\uf0a4  ",
+            "home_icon": "\uf015 ",
+            "style": "agnoster"
+          },
+          "style": "plain",
+          "template": "<#f32c1e>\u2500\u2500[ </>{{ .Path }} <#f32c1e>]\u2500\u2500 </>",
+          "type": "path"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "foreground": "white",
+          "properties": {
+            "always_enabled": true,
+            "style": "round"
+          },
+          "foreground": "#111111",
+          "background": "#FFFFFF",
+          "style": "diamond",
+          "trailing_diamond": "\ue0b0\u2500\u256e ",
+          "template": " {{ .FormattedMs }} ",
+          "type": "executiontime"
+        },
+        {
+          "foreground": "#f32c1e",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}red{{ end }}"
+          ],
+          "properties": {
+            "always_enabled": true
+          },
+          "style": "plain",
+          "template": " {{ if gt .Code 0 }}\u2a2f{{else}}\u2713{{ end }} ",
+          "type": "status"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "lightBlue",
+          "style": "plain",
+          "template": "<#f32c1e>\u2514<#f32c1e>\u2500\u2500<#FFFFFF>$",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "console_title_template": "{{if .Root}}[root] {{end}}{{.Shell}} in <{{.Folder}}>",
+  "final_space": true,
+  "version": 2
+}
