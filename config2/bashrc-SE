@@ -1,13 +1,13 @@
-eval "$(oh-my-posh init bash)"
-
-#oh-my-posh init bash | source
-#oh-my-posh init bash --config .mythemes/01-elegantBW.json | source
-#oh-my-posh init bash --config .mythemes/02-indomod.json | source
-#oh-my-posh init bash --config .mythemes/03-simple.json | source
-#oh-my-posh init bash --config .mythemes/04-redfly.json | source
-#oh-my-posh init bash --config .mythemes/05-orange.json | source
-#oh-my-posh init bash --config .mythemes/06-moon.json | source
-#oh-my-posh init bash --config .mythemes/special-edition.json | source
 
 # Commands to run in interactive sessions can go here
-end
+
+#eval "$(oh-my-posh init bash)"
+#eval "$(oh-my-posh init bash --config .mythemes/01-elegantBW.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/02-indomod.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/03-simple.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/04-redfly.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/05-orange.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/06-moon.json)"
+eval "$(oh-my-posh init bash --config .mythemes/special-edition.json)"
+
+# Commands to run in interactive sessions can go here
