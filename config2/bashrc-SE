@@ -1,13 +1,13 @@
 eval "$(oh-my-posh init bash)"
 
-#oh-my-posh init fish | source
-#oh-my-posh init fish --config .mythemes/01-elegantBW.json | source
-#oh-my-posh init fish --config .mythemes/02-indomod.json | source
-#oh-my-posh init fish --config .mythemes/03-simple.json | source
-#oh-my-posh init fish --config .mythemes/04-redfly.json | source
-#oh-my-posh init fish --config .mythemes/05-orange.json | source
-#oh-my-posh init fish --config .mythemes/06-moon.json | source
-#oh-my-posh init fish --config .mythemes/special-edition.json | source
+#oh-my-posh init bash | source
+#oh-my-posh init bash --config .mythemes/01-elegantBW.json | source
+#oh-my-posh init bash --config .mythemes/02-indomod.json | source
+#oh-my-posh init bash --config .mythemes/03-simple.json | source
+#oh-my-posh init bash --config .mythemes/04-redfly.json | source
+#oh-my-posh init bash --config .mythemes/05-orange.json | source
+#oh-my-posh init bash --config .mythemes/06-moon.json | source
+#oh-my-posh init bash --config .mythemes/special-edition.json | source
 
 # Commands to run in interactive sessions can go here
 end
