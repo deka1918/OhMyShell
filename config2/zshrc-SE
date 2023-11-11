@@ -1,14 +1,13 @@
 
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 
-eval "$(oh-my-posh init zsh)"
-#oh-my-posh init zsh --config .poshthemes/01-elegantBW.json | source
-#oh-my-posh init zsh --config .poshthemes/02-indomod.json | source
-#oh-my-posh init zsh --config .poshthemes/03-simple.json | source
-#oh-my-posh init zsh --config .poshthemes/04-redfly.json | source
-#oh-my-posh init zsh --config .poshthemes/05-orange.json | source
-#oh-my-posh init zsh --config .poshthemes/06-moon.json | source
-#oh-my-posh init zsh --config .poshthemes/special-edition.json | source
+  eval "$(oh-my-posh init zsh)"
+  #oh-my-posh init zsh --config .mythemes/01-elegantBW.json | source
+  #oh-my-posh init zsh --config .mythemes/02-indomod.json | source
+  #oh-my-posh init zsh --config .mythemes/03-simple.json | source
+  #oh-my-posh init zsh --config .mythemes/04-redfly.json | source
+  #oh-my-posh init zsh --config .mythemes/05-orange.json | source
+  #oh-my-posh init zsh --config .mythemes/06-moon.json | source
+  #oh-my-posh init zsh --config .mythemes/special-edition.json | source
 
-# Commands to run in interactive sessions can go here
-end
+fi
