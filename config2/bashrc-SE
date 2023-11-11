@@ -1,0 +1,14 @@
+
+if status is-interactive
+
+#oh-my-posh init fish | source
+#oh-my-posh init fish --config .poshthemes/01-elegantBW.json | source
+#oh-my-posh init fish --config .poshthemes/02-indomod.json | source
+#oh-my-posh init fish --config .poshthemes/03-simple.json | source
+#oh-my-posh init fish --config .poshthemes/04-redfly.json | source
+#oh-my-posh init fish --config .poshthemes/05-orange.json | source
+#oh-my-posh init fish --config .poshthemes/06-moon.json | source
+oh-my-posh init fish --config .poshthemes/special-edition.json | source
+
+# Commands to run in interactive sessions can go here
+end
