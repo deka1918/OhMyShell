@@ -75,31 +75,12 @@
           "foreground": "#111111",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "time_format": " Monday "
+            "time_format": "15:04 | Monday"
           },
           "style": "diamond",
-          "trailing_diamond": "\ue0b4\u2500\u2500 🍉 #ToTheMoon </>",
-          "template": " \uf073 {{ .CurrentDate | date .Format }} ",
+          "trailing_diamond": "\ue0b4 ",
+          "template": " {{ .CurrentDate | date .Format }} \uf073 ",
           "type": "time"
-        }
-      ]
-    },
-    {
-      "type": "prompt",
-      "alignment": "right",
-      "segments": [
-        {
-          "foreground": "white",
-          "properties": {
-            "always_enabled": true,
-            "style": "round"
-          },
-          "foreground": "#149954",
-          "style": "diamond",
-          "leading_diamond": "",
-          "trailing_diamond": "",
-          "template": " <#FFFFFF>\ue266 RAM: {{ round .PhysicalPercentUsed .Precision }}% | {{ (div .PhysicalTotalMemory 1000000000.0) }}GB ",
-          "type": "sysinfo"
         }
       ]
     },
