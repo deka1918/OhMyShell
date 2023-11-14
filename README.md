@@ -18,7 +18,7 @@
 
 
 ## Hello
-https://github.com/deka1918/OhMyShell/blob/main/images/01-elegantBW.png?raw=true
+![Image](https://github.com/deka1918/OhMyShell/blob/main/images/02-indomod.png?raw=true)
 
 
 ## Hello
