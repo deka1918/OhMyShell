@@ -8,7 +8,10 @@ if status is-interactive
 #oh-my-posh init fish --config .mythemes/04-redfly.json | source
 #oh-my-posh init fish --config .mythemes/05-orange.json | source
 #oh-my-posh init fish --config .mythemes/06-moon.json | source
+#oh-my-posh init fish --config .mythemes/07-pipe.json | source
+
 oh-my-posh init fish --config .mythemes/special-edition.json | source
+#oh-my-posh init fish --config .mythemes/start.json | source
 
 # Commands to run in interactive sessions can go here
 end
