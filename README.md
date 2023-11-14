@@ -6,14 +6,15 @@
 
 ![SE](https://github.com/deka1918/OhMyShell/blob/main/SE.png?raw=true)
 
-![tested fedora](https://github.com/deka1918/OhMyShell/blob/main/tested%20fedora.png?raw=true)
 <br>
-## Setup and Instalation: [here](https://telegra.ph/Getting-fun-with-oh-my-posh-on-linux-11-08)
+
+![tested fedora](https://github.com/deka1918/OhMyShell/blob/main/tested%20fedora.png?raw=true)
+
 
 </div>
 
-## Hello
-https://github.com/deka1918/OhMyShell/blob/main/images/01-elegantBW.png?raw=true
+## 01-elegantBW
+![01-elegantBW](https://github.com/deka1918/OhMyShell/blob/main/images/01-elegantBW.png?raw=true)
 
 
 ## Hello
