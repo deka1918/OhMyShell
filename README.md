@@ -10,7 +10,7 @@
 
 <br>
 
-Setup and Instalation: [here](https://telegra.ph/Getting-fun-with-oh-my-posh-on-linux-11-08)
+##Setup and Instalation: [here](https://telegra.ph/Getting-fun-with-oh-my-posh-on-linux-11-08)
 
 </div>
 
