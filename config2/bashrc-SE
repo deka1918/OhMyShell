@@ -8,6 +8,9 @@
 #eval "$(oh-my-posh init bash --config .mythemes/04-redfly.json)"
 #eval "$(oh-my-posh init bash --config .mythemes/05-orange.json)"
 #eval "$(oh-my-posh init bash --config .mythemes/06-moon.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/07-pipe.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/08-mustarde.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/09-navy.json)"
 eval "$(oh-my-posh init bash --config .mythemes/special-edition.json)"
 
-# Commands to run in interactive sessions can go here
+# Created by Deka1918
