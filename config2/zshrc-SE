@@ -8,6 +8,11 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 #eval "$(oh-my-posh init zsh --config .mythemes/04-redfly.json)"
 #eval "$(oh-my-posh init zsh --config .mythemes/05-orange.json)"
 #eval "$(oh-my-posh init zsh --config .mythemes/06-moon.json)"
+#eval "$(oh-my-posh init zsh --config .mythemes/07-pipe.json)"
+#eval "$(oh-my-posh init zsh --config .mythemes/08-mustarde.json)"
+#eval "$(oh-my-posh init zsh --config .mythemes/09-navy.json)"
 eval "$(oh-my-posh init zsh --config .mythemes/special-edition.json)"
 
 fi
+
+# Created by Deka1918
