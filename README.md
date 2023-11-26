@@ -45,3 +45,7 @@
 ## special-edition
 ![Image](https://github.com/deka1918/OhMyShell/blob/main/images/special-edition.png?raw=true)
 
+
+## Neofetch - Custom
+![Image](https://github.com/deka1918/OhMyShell/blob/main/images/Neofetch-Cust.png?raw=true)
+
