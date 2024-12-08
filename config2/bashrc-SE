@@ -11,6 +11,7 @@
 #eval "$(oh-my-posh init bash --config .mythemes/07-pipe.json)"
 #eval "$(oh-my-posh init bash --config .mythemes/08-mustarde.json)"
 #eval "$(oh-my-posh init bash --config .mythemes/09-navy.json)"
-eval "$(oh-my-posh init bash --config .mythemes/special-edition.json)"
+#eval "$(oh-my-posh init bash --config .mythemes/special-edition.json)"
+eval "$(oh-my-posh init bash --config .mythemes/special-edition-2.json)"
 
 # Created by Deka1918
